@@ -32,7 +32,7 @@ public class ApplicationUserSouravController {
 
 	}
 
-	@GetMapping("/getmappingall")
+	@GetMapping("/getmappinga")
 	public List<ApplicationUserSourav> getByAll() {
 		return applicationUserSouravService.getByAll();
 
